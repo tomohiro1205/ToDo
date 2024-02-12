@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("memo") var savedMemo = "Default valueだよ!"
+    @AppStorage("memo") var savedMemo = "Default valueだよ!!"
     @State var currentMemo = ""
     var body: some View {
         VStack{
